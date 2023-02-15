@@ -1,0 +1,309 @@
+.mainpage {
+    font-style:initial;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.span {
+    color:rgb(0, 110, 255);
+}
+.span1 {
+    
+    font-size:large;
+    margin-top:50px;
+    margin-right: 250px;
+    
+}
+.h1 {
+    background-color: white;
+    margin-left: 80px;
+    border: 1px solid white;
+}
+
+.border {
+    background-color: whitesmoke;
+    border:1px  solid whitesmoke;
+    cursor: pointer;
+    height:155vh;
+    width:100%;
+    
+}
+.button{
+    background-color: rgb(101, 155, 235);
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    color:white;
+    font-size:x-large;
+    border:0px;
+    margin-top:40px;
+    position: relative;
+    left:75%;
+    
+    font-weight:bold;
+    
+}
+   
+.box {
+    width:300px;
+    height:300px;
+    border:1px solid white;
+    margin-top: 30px;
+    margin-left:30px;
+    background-color: white;
+    border-radius: 10px;
+    
+    cursor: pointer;
+    border: 1px solid rgb(239, 231, 231);
+    
+}
+.box:hover {
+    box-shadow: 0px 0px 20px grey;
+}
+
+.flex-box {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+    
+    
+   }
+
+
+
+.head3 {
+    padding-left: 20px;
+    color:rgb(0, 110, 255);
+}
+.form {
+    padding-left: 20px;
+    text-decoration: line-through;
+    
+}
+#church {
+    width:20px;
+    height:20px;
+    
+}
+#super {
+    
+    width:20px;
+    height:20px; 
+    
+}
+.shop {
+    text-decoration:none;
+    padding-left:20px;
+    
+}
+#supermarket {
+    width: 20px;
+    height:20px;
+}
+#veg {
+    width: 20px;
+    height:20px;
+}
+#stranger {
+    width: 20px;
+    height:20px;
+}
+#avengers {
+    width: 20px;
+    height:20px;
+}
+#wakeup {
+    width:20px;
+    height:20px;
+}
+#sleep {
+    width:20px;
+    height:20px;
+}
+#design {
+    width:20px;
+    height:20px;
+}
+#alchemist {
+    width:20px;
+    height:20px;
+}
+
+.page2 {
+    filter: brightness(.4);
+    
+}
+
+
+
+.newtask {
+    border: 1px solid black;
+    border-radius: 5px;
+    width:400px;
+    height:200px;
+    background-color: whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    position: absolute;
+    top:40%;
+    left:37%;
+    
+}
+.newhead {
+    font-weight: bold;
+    color:black;
+    font-size: large;
+    text-decoration:  none;
+    padding-left:10px;
+
+}
+.x {
+    float:right;
+    padding-right: 10px;
+    color:silver;
+    font-weight: 300;
+}
+.learn {
+    border: 2px solid white;
+    width:370px;
+    height:30px;
+    background-color: white;
+    text-decoration: none;
+    color: silver;
+    padding-left: 10px;
+    position:relative;
+    left:10px;
+    
+    
+}
+.hr2 {
+    position:relative;
+    top:-15px;
+}
+.addbutton {
+    border:0px;
+    background-color: rgb(0, 110, 255);
+    color:white;
+    font-size: small;
+    width: 120px;
+    height:35px;
+    border-radius: 5px;
+    float:right;
+    position:relative;
+    bottom: 5px;
+    right: 20px;
+    cursor: pointer;
+}
+.page3 {
+    font-style:initial;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+.addbackspace {
+    border-radius: 50%;
+    width:35px;
+    height:35px;
+    color:white;
+    font-size:large;
+    border:0px;
+    margin-top:40px;
+    margin-left: 555px;
+    background-color: black;
+    cursor: pointer;
+}
+.addback {
+    font-size:large;
+    margin-top:50px;
+    margin-right:200px; 
+}
+.button2 {
+    background-color: rgb(101, 155, 235);
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    color:white;
+    font-size:x-large;
+    border:0px;
+    margin-top:40px;
+    margin-left: -25px;
+    font-weight:bold;
+    cursor: pointer;
+
+}
+.toptask3 {
+    font-size:large;
+    margin-top:50px;
+    margin-right:200px; 
+}
+.flex-container2 {
+    display:flex;
+    justify-content: center;
+}
+.flex-box2 {
+    width:400px;
+    height:200px;
+    border:2px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+    
+}
+.flex-box2:hover {
+    box-shadow:0px 0px 10px grey;
+}
+@media (min-width:350px) and (max-width:540px) 
+{
+    .button {
+        left:42%;
+        margin-top: 20px;
+        
+    }
+   .flex-box {
+      
+        flex-direction: column;
+        align-content: center;
+        
+    }
+    .box {
+        width:335px;
+        height:350px;
+        margin-left: 14px;
+        padding-bottom: 30px;
+    }
+    .newtask {
+        width:340px;
+        height:250px;
+        left:6%;
+        top:40%;
+        border-radius: 15px;
+    }
+    .learn {
+        width:305px;
+    }
+    .h1 {
+        margin-left: 10px;
+        font-size: small;
+    }
+    .flex-box2 {
+       width:335px;
+       height: 350px;
+       
+    
+    }
+    .button2 {
+        margin-left:-140px;
+    }
+    .addbackspace {
+        margin-left: 20px;
+        width:30px;
+        height:30px;
+        background-color: rgb(67, 66, 66);
+    }
+    .border {
+        height:160vh;
+    }
+  
+}
+
